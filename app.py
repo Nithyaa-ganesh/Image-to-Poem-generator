@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # Load API key
-google_api_key = "AIzaSyDEMtR6ZiTTg87av13iHMkUuKin3JeKXbI"  # Replace with your actual Google API key
+google_api_key = "xxxxxxxxxx"  # Replace with your actual Google API key
 genai.configure(api_key=google_api_key)
 
 def generate_multilingual_poem(image, selected_languages, length, style):
